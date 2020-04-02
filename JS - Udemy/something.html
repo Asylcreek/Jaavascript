@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+	<div class="row-1">
+		<div class="column"><img src="https://gateacademy.com.ng/wp-content/uploads/2020/02/Annotation-2020-02-17-121346-239x300.jpg" alt="" width="239" height="300" /></div>
+		<div class="column"><img src="https://gateacademy.com.ng/wp-content/uploads/2020/02/Annotation-2020-02-17-121655-205x300.jpg" alt="" width="205" height="300" /></div>
+		<div class="column"><img src="https://gateacademy.com.ng/wp-content/uploads/2020/02/Annotation-2020-02-17-121531-271x300.jpg" alt="" width="271" height="300" /></div>
+	</div>
+</body>
+</html>
